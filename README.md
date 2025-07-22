@@ -2,30 +2,56 @@
 
 ---
 
-### Example README for Blood Bank Management System
-```markdown
-# Blood Bank Management System
+## 🩸 Blood Bank Management System (PHP + Laravel + MySQL)
 
-A full-stack web application to manage blood donation records, including donor registration, blood inventory tracking, and request handling. Built to support healthcare initiatives and demonstrate my skills for GirlScript Summer of Code 2025.
+A full-stack web application to manage blood donation records, including donor registration, blood inventory tracking, and request handling.  
+Built to support healthcare initiatives and demonstrate my skills for **GirlScript Summer of Code 2025**.
 
-## Description
-This project provides a user-friendly platform for blood banks to track donors, manage blood stock, and process donation requests. It combines a React front-end, Node.js back-end, and MySQL database for efficient data management.
+---
 
-## Features
-- Donor registration and authentication
-- Real-time blood inventory tracking (e.g., A+, B-, O+)
-- Request submission for blood units
-- Admin dashboard for managing records
-- Responsive UI for accessibility
+## 📌 Description
 
-## Technologies Used
-- **Front-End**: ReactJS, JavaScript, HTML, Tailwind CSS
-- **Back-End**: Node.js, Express
-- **Database**: MySQL
-- **Tools**: Git, GitHub, VS Code
-- **Deployment**: Render (or GitHub Pages for front-end)
+This project provides a user-friendly platform for blood banks to:
+- Track donors
+- Monitor blood stock in real-time
+- Process donation and issue requests
+- Manage staff access by roles
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/blood-bank-system.git
+It is built using PHP (with Laravel framework), MySQL database, and front-end technologies like HTML, CSS, and JavaScript.
+
+---
+
+## 🚀 Features
+
+- 🔐 Donor registration and login
+- 🩸 Real-time blood inventory tracking (A+, A−, B+, O−, etc.)
+- 📝 Blood request submission
+- 📊 Admin dashboard for managing users, inventory, and reports
+- ⚠️ Expiration alerts for blood bags
+- 📈 Analytics and report generation
+- 🔒 Role-based access: Admin, Doctor, Receptionist
+- 🖥️ Responsive user interface
+
+---
+
+## 🧰 Tech Stack Used
+
+| Layer       | Technology                     |
+|-------------|--------------------------------|
+| Front-end   | HTML, CSS, JavaScript          |
+| Back-end    | PHP (Laravel Framework)        |
+| Database    | MySQL                          |
+| Tools       | XAMPP, phpMyAdmin              |
+
+---
+
+## 📄 Project Report
+
+A detailed final year academic report is included in the `/docs` folder.  
+📎 [Click here to view the report (Report-1.pdf)](./docs/Report-1.pdf)
+
+---
+
+
+
+
